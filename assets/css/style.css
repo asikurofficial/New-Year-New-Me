@@ -75,30 +75,63 @@ header {
     font-weight: 400;
     line-height: 30px;
 }
+
 /* My Plans start */
 
 .my-plans-container h3 {
-color: #151414;
-font-size: 40px;
-font-weight: 700;
-text-align: center;
-margin: 150px auto;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 150px auto;
 }
-.my-plans{
+
+.my-plans {
     display: flex;
     justify-content: space-around;
     margin: 150px 200px 150px 200px;
 }
-.my-plans h4{
- color #151414;
-text-align: center;
-font-size: 30px;
-font-weight: 700;
+
+.my-plans h4 {
+    color #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
-.my-plans p{
-    color:  #737272;
-text-align: center;
-font-size: 25px;
-font-weight: 500;
-margin-bottom: 100px;
+
+.my-plans p {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+/* contact starts */
+
+.Contact{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../photos/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 0px 200px 100px 400px;
+
+}
+.Contact h3{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+padding-left: 60px;
+padding-right: 600px;
+padding-top: 40px;
+}
+.contact-btn {
+    color: #F15B22;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    background: #FFF;
+    border: 0px;
+    padding: 30px;
+    margin: 30px 60px;
 }
