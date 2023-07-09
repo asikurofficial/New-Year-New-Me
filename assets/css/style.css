@@ -102,28 +102,30 @@ header {
 .my-plans p {
     color: #737272;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 500;
     margin-bottom: 100px;
 }
 
 /* contact starts */
 
-.Contact{
+.Contact {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../photos/watch.png');
     width: 1140px;
     height: 300px;
     margin: 0px 200px 100px 400px;
 
 }
-.Contact h3{
+
+.Contact h3 {
     color: #FFF;
-font-size: 40px;
-font-weight: 700;
-padding-left: 60px;
-padding-right: 600px;
-padding-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-right: 600px;
+    padding-top: 40px;
 }
+
 .contact-btn {
     color: #F15B22;
     text-align: right;
@@ -134,4 +136,61 @@ padding-top: 40px;
     border: 0px;
     padding: 30px;
     margin: 30px 60px;
+}
+
+/* dooter start */
+footer {
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px;
+
+}
+
+.future {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.future h4 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 100px;
+}
+
+.fa-brands {
+    background-color: #F8F8F8;
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.subscribe {
+    width: 50%;
+    margin-left: 400px;
+}
+
+.subscribe h5 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    display: block;
+    padding: 15px 0px;
+    width: 50%;
+}
+
+.s-btn {
+    margin-left: 0px;
 }
